@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { TiThMenu } from "react-icons/Ti";
+import { TiThMenu } from "react-icons/ti";
 import { Gantari } from "next/font/google";
 import { motion,AnimatePresence } from "framer-motion";
 
