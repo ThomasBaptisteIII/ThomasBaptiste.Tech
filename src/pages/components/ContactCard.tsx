@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import { TiSocialLinkedinCircular, TiSocialGithubCircular, TiSocialInstagramCircular } from "react-icons/ti";
 
+
   const card = () => {
     return(
           <div className="mx-auto px-4 py-5 sm:py-12 sm:px-10 lg:py-16 lg:px-8 ">
