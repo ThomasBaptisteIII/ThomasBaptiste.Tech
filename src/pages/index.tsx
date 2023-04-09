@@ -1,11 +1,16 @@
-import Navbar from './navbar'
-
+import Navbar from "./components/navbar";
+import Card from "./components/HomepageCard";
+import { PageWrapper } from "./page-wrapper";
+import { motion } from "framer-motion";
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <PageWrapper>
+    <main className="min-h-screen">
       <Navbar></Navbar>
+    <Card></Card>
     </main>
-  )
+    </PageWrapper>
+  );
 }

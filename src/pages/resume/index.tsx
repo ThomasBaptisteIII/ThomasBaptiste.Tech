@@ -1,11 +1,12 @@
-import Navbar from '../navbar'
-
-
+import Navbar from "../components/navbar";
+import { PageWrapper } from "../page-wrapper";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <PageWrapper>
+    <main className="min-h-screen">
       <Navbar></Navbar>
     </main>
-  )
+    </PageWrapper>
+  );
 }
