@@ -57,6 +57,7 @@ import { motion } from "framer-motion";
         <div className="flex-grow border-t border-emerald-400"></div>
       </div>
     </div>
+
     <div className="mt-4 text-gray-600">
       <motion.div
         initial={{ opacity: 0, x: 5 }}
