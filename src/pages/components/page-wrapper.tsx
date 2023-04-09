@@ -1,7 +1,7 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 
-export const PageWrapper = ({ children }: { children: React.ReactNode }) => (
+const PageWrapper = ({ children }: { children: React.ReactNode }) => {return( 
   <>
     <AnimatePresence>
       <motion.div>
@@ -10,3 +10,5 @@ export const PageWrapper = ({ children }: { children: React.ReactNode }) => (
     </AnimatePresence>
   </>
 );
+};
+export default PageWrapper;

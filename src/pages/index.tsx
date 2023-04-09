@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar";
 import Card from "./components/HomepageCard";
-import { PageWrapper } from "./page-wrapper";
+import  PageWrapper from "./components/page-wrapper";
 
 
 

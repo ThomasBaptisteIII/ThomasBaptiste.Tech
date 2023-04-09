@@ -1,5 +1,5 @@
 import Navbar from "../components/navbar";
-import { PageWrapper } from "../page-wrapper";
+import  PageWrapper  from "../components/page-wrapper";
 
 export default function Home() {
   return (
