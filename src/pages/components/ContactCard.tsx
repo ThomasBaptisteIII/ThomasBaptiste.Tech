@@ -1,10 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import {
-    TiSocialLinkedinCircular,
-    TiSocialGithubCircular,
-    TiSocialInstagramCircular,
-  } from "react-icons/Ti";
+import { TiSocialLinkedinCircular, TiSocialGithubCircular, TiSocialInstagramCircular } from "react-icons/ti";
 
   const card = () => {
     return(

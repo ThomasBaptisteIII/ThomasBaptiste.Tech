@@ -1,7 +1,7 @@
 import Navbar from "./components/navbar";
 import Card from "./components/HomepageCard";
 import { PageWrapper } from "./page-wrapper";
-import { motion } from "framer-motion";
+
 
 
 export default function Home() {
