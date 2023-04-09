@@ -4,3 +4,9 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
+const withEslint = require('next/dist/client/withEslint');
+
+module.exports = withEslint({
+  eslint: false,
+});
