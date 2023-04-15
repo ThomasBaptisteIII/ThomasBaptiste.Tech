@@ -28,7 +28,7 @@ const NavbarComponent = () => {
             href="/"
             className="flex items-center whitespace-nowrap text-2xl font-black"
           >
-            <span className="text-xl">Thomas Baptiste III</span>
+            <span className="text-xl">Home</span>
           </Link>
           <input type="checkbox" className="peer hidden" id="navbar-open" />
           <label
