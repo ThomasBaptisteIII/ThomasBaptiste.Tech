@@ -4,6 +4,7 @@ import PageWrapper from "./components/page-wrapper";
 import { motion } from "framer-motion";
 import { AiFillDownCircle } from "react-icons/ai";
 import Link from "next/link";
+import CardHead from "./components/Titles";
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
                 ease: "easeInOut",
                 times: [0, 0.2, 0.5, 0.8, 1],
               }}
-              className="rounded-full mx-auto h-64 w-64 bg-gradient-to-b from-emerald-600 via-gray-900 to-black outline-dotted outline-offset-4 outline-emerald-400  object-fill my-10 shadow-inner"
+              className="rounded-full mx-auto h-64 w-64 bg-gradient-to-b from-transparent via-emerald-950 to-emerald-950  dark:bg-gradient-to-b dark:from-transparent dark:via-black dark:to-black outline-dotted outline-offset-4 outline-emerald-950 dark:outline-emerald-300 object-fill my-10 shadow-inner"
             >
               <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -78,7 +79,7 @@ export default function Home() {
                   initial={{ opacity: 0, x: -5 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ duration: 2, ease: "easeInOut" }}
-                  className="text-5xl font-light text-emerald-600 dark:text-emerald-400"
+                  className="text-7xl font-light text-emerald-600 dark:text-emerald-400"
                 >
                   Software Engineer
                 </motion.h2>
@@ -90,25 +91,34 @@ export default function Home() {
           {/* End of Career title */}
           {/* Go To Bottom Icon */}
           <div className=" animate-bounce flex flex-col items-center text-5xl text-emerald-600 dark:text-emerald-400">
-            <Link href="#FirstCard">
+            <Link href="#UnlockThePower">
               <AiFillDownCircle></AiFillDownCircle>
             </Link>
           </div>
           {/* End of Go To Bottom Icon */}
         </motion.div>
         {/* Next Card */}
-        <Card className="" id="FirstCard">
+    
+
+        <Card>
+        <CardHead className="" id="">
+      
+          <div className="flex justify-center ">
+            <h1 className="" id="UnlockThePower">
+              Unlocking the Power of Technology for Businesses
+            </h1>
+          </div>
+        
+        </CardHead>
           {/* Start of Introductory Paragraphs */}
 
-          <div className="mt-4 dark:text-emerald-950">
+          <div className="mt-4 dark:text-white">
             <motion.div
               initial={{ opacity: 0, x: 5 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 2, ease: "easeInOut" }}
             >
-              <h1 className="">
-                Unlocking the Power of Technology for Businesses
-              </h1>
+              <br />
               <p className="">
                 Hello, I'm Thomas Baptiste, a highly skilled and motivated IT
                 professional with a passion for leveraging technology to drive
@@ -163,6 +173,7 @@ export default function Home() {
             </motion.div>
           </div>
         </Card>
+      
       </main>
     </PageWrapper>
   );

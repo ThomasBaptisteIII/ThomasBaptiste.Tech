@@ -22,11 +22,11 @@ const NavbarComponent = () => {
   return (
 
     <section className={gantari.className}>
-      <header className="bg-emerald-100 dark:bg-emerald-700  p-5">
+    <header className="p-5">
         <div className="relative flex max-w-screen flex-col overflow-hidden px-6 py-4 md:mx-auto md:flex-row md:items-center">
           <Link
             href="/"
-            className="flex items-center whitespace-nowrap text-2xl font-black"
+            className="flex items-center whitespace-nowrap text-2xl font-bold"
           >
             <span className="text-xl">Home</span>
           </Link>
